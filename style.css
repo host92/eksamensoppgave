@@ -1,0 +1,149 @@
+.bg-dark {
+    background-color:#BAB6A7!Important;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+p.lead {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+} 
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px; 
+  line-height: 1.8;
+}  
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ {box-sizing: border-box}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+      }
+}
+
+.side6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #B2BEA6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #95A08B;
+}
+
+.side6 .container {
+  border-radius: 5px;
+  background-color: #EDEDED;
+  padding: 20px;
+    }
+
+footer {
+  position:relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width:100%;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+}
+
+footer pre {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;!Important;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: center;
+}  
+
+section {
+   padding-top: 40px; 
+   padding-bottom: 20px;
+   text-align: center;
+} 
+
+article {
+   padding-top: 40px;
+   text-align: center;
+} 
+
+.side1 .column {
+   float: left;
+   width: 50%;
+   padding: 5px;
+   padding-bottom: 60px;
+} 
+
+.side2 .column {
+   float: left;
+   width: 50%;
+   padding: 5px;
+   padding-bottom: 20px;
+} 
+
